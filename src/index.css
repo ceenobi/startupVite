@@ -1,0 +1,33 @@
+* {
+  font-family: 'Rubik Variable', sans-serif;
+  text-decoration: none !important;
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-weight: 400;
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --bg-zinc-700: #3f3f46;
+  --bg-zinc-600: #5f5f69;
+  --bg-gray-100: #f2f1f1;
+  --bg-yellow-300: #d3b20e;
+  --bg-blue-400: #3182CE;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+main {
+  background-color: var(--bg-gray-100);
+  min-height: 100vh;
+}
+
+a {
+  color: inherit !important;
+}
